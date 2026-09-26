@@ -1,0 +1,21 @@
+.local*
+# Cargo.lock
+target
+.vscode/settings.json
+.cargo/config.toml
+yarn-error.log
+
+# Python
+__pycache__/
+*venv/
+dist/
+wheels/
+
+# Local build output; keep the source repository small.
+node_modules/
+.yarn/install-state.gz
+.yarn/cache/
+.yarn/unplugged/
+artifacts/
+*.vsix
+.build-tools/
