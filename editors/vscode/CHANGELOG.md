@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.0.0 (Chinese bare key fork)
+
+- Promote the tested Chinese bare-key extension to its first stable release.
+- Remove the preview badge; keep the existing extension ID for in-place upgrades.
+
 ## 0.1.0 (Chinese bare key fork)
 
 - Support Han characters in bare keys, dotted keys, table names, array-of-table names and inline tables.

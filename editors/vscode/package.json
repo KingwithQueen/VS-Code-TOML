@@ -2,9 +2,9 @@
   "name": "chinese-bare-key-toml",
   "displayName": "TOML 中文键名",
   "description": "TOML language support with Chinese bare keys, based on Taplo / Even Better TOML.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "publisher": "local-toml",
-  "preview": true,
+  "preview": false,
   "icon": "taplo-icon.png",
   "galleryBanner": {
     "color": "#731c12",

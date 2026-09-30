@@ -2,7 +2,7 @@
 
 基于 [Taplo / Even Better TOML](https://github.com/tamasfe/taplo) 的个人维护分支，为 VS Code 增加不加引号的中文键名支持。继续使用 MIT 协议，保留原作者版权声明。
 
-上游基线：`08f343be02ce1b20296470396a42f0fa47820449`；上游插件版本 0.21.2；本分支插件版本 0.1.0。
+上游基线：`08f343be02ce1b20296470396a42f0fa47820449`；上游插件版本 0.21.2；本分支插件版本 1.0.0（正式版）。
 
 ## 支持范围
 
@@ -26,7 +26,7 @@
 
 ## 安装
 
-1. 构建后的插件在 `artifacts/chinese-bare-key-toml-0.1.0.vsix`。
+1. 构建后的插件在 `artifacts/chinese-bare-key-toml-1.0.0.vsix`。
 2. 在 VS Code 扩展页面的“…”菜单选择“从 VSIX 安装”。
 3. 禁用原版 Even Better TOML 及其他会同时处理 TOML 的扩展，避免重复诊断、命令和格式化器冲突。
 4. 保持 `evenBetterToml.taplo.bundled` 为 `true`（默认值），使用本插件内置的修改版语言服务。
